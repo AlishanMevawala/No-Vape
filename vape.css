@@ -14,8 +14,29 @@ div {
     height: 100%;
     border: 1px solid red;
 }
+/* Buttons-Start */
+button {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 16px 32px;
+    font-size: 15px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
 
-.butts {
+button:hover {
+    border-radius: 0%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+/* Buttons-End */
+
+.divs {
     width: 30%;
     background-color: aliceblue;
     float: center;
