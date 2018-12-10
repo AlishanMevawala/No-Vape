@@ -10,10 +10,10 @@ function myFunction1() {
 
 function myFunction2()  {
     // When the second button is clicked
-    // Doesn't do anything yet
+    // Doesn't do anything yet obvio
 }
 
 function myFunction3() {
     // When the third button is clicked
-    // Doesn't do anything yet
+    // Doesn't do anything yet obvio
 }
