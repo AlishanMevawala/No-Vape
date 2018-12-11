@@ -1,6 +1,6 @@
-function myFunction1() {
+function myFunction1(ElementId) {
     // When the first button is clicked
-    var x = document.getElementById("div1");
+    var x = document.getElementById(ElementId);
     if (x.style.display === "none") {
         x.style.display = "block";
     } else {

@@ -9,33 +9,44 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Don't Vape</title>
-    <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
+   <!--<script>
         $( function() {
             $( "#dialog" ).dialog();
           } );
-  </script> 
+  </script> -->
     <link rel="stylesheet" type="text/css" href="vape.css">
     <script src="vape.js"></script>
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff"> 
 </head>
-<body style="background-color:hsl(187,50%,75%);">
-    <div id="TitleDiv" style="
-    background: hsl(184,24%,38%);
-     width:100%; 
-     height:3.5cm; 
-     padding:0%;
-     margin-top:0%;
-     text-align:center;
-     display:inline-block;">
+<body >
+    <div id="TitleDiv">
     <h1 style="text-align: center; margin-top: 40px; color:white">Are you sucking on a usb stick?</h1>
     </div>
-    <div id="divContainer" style="margin-top:0%;border-width:0px;">
-        <div class="divs">
-            <img src="vape.jpg" alt="E-cigarette">
-            <button onclick="myFunction1()">Real Life</button>
-            <div id="div1" >Just like cell phones or any other electronic device, e-cigarrettes or "vapes" have the
+    <div id="divContainer" style="margin-top:0%;">
+        <div class="divs col-md-8 col-offset-md-2">
+            <img src="vape.jpg" alt="E-cigarette" class="img-circle img-responsive">
+            <br>
+            <button onclick="myFunction1(div1)">Real Life</button>
+            <div class ="text divinfo" id ="div1">Just like cell phones or any other electronic device, e-cigarrettes or "vapes" have the
                 ability to explode as was seen on November 17, 2018 in Sturgeon County. The unsuspecting 18-year old 
                 Lauren Palmer woke up to her vapourizer exploding "like a bomb" her mother said. The incident fired metal shards in all directions
                 in her room. Using a vape with the wrong charging cable or even just carrying it in the pocket, has the ability to cause issues with the battery.
@@ -43,18 +54,22 @@
                 <br>
                 <br>
                 <br>
-                Source: <a href="https://www.stalbertgazette.com/article/exploding-vape-sparks-safety-concerns-20181127/html">St. Albert Gazzette</a>
+                Source: <a href="https://www.stalbertgazette.com/article/exploding-vape-sparks-safety-concerns-20181127" target="_blank">St. Albert Gazette</a>
             </div>
         </div>
         <br>
-        <div class="divs">
-            <img src ="vape image.jpeg">
+        <div class="divs col-md-8 col-offset-md-2">
+            <img src ="vape image.jpeg" class="img-responsive">
+            <br>
             <button>Click me</button>
         </div>
         <br>
-        <div class="divs">
-            <img src = "vaping-vs-smoking.jpg">
+        <div class="divs col-md-8 col-offset-md-2">
+            <img src = "vaping-vs-smoking.jpg" class="img-responsive"> 
+            <!--add "rounded-circle" for round images-->
+            <br>
             <button>Click me</button>
+        </div>
         </div>
         <br>
     </div>
