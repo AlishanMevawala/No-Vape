@@ -6,6 +6,10 @@ body {
 h1{
     font-family: 'Unlock', cursive;
 }
+h2{
+    font-family: 'Unlock', cursive;
+    color: white;
+}
 div {
     padding: 25px 0;
     text-align: center;
