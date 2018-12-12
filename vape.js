@@ -8,7 +8,7 @@ function myFunction1(ElementId) {
     }
 }
 
-function myFunction2()  {
+function myFunction2() {
     // When the second button is clicked
     // Doesn't do anything yet obvio
 }

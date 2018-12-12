@@ -3,13 +3,20 @@ body {
     text-align: center;
     background-color:hsl(187,75%,86%);
 }
+/* Headings-Start */
 h1{
     font-family: 'Unlock', cursive;
+    color:hsl(16, 95%, 59%)
 }
 h2{
     font-family: 'Unlock', cursive;
-    color: white;
+    color: hsl(16, 95%, 59%);
 }
+h3{
+    font-family: 'Unlock', cursive;
+    color: hsl(16, 95%, 59%);  
+}
+/* Headings-End */
 div {
     padding: 25px 0;
     text-align: center;
@@ -34,30 +41,7 @@ div {
     border-width:0px;
     border-color:white;
 }
-/* Buttons-Start */
-button {
-    margin-top:8px;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    padding: 16px 32px;
-    font-size: 15px;
-    -webkit-transition-duration: 0.6s; /* Safari */
-    transition-duration: 0.6s; /*everything else*/
-    cursor: pointer;
-    background-color:  hsl(16, 95%, 59%);
-    color: white;
-    border:0;
-    font-weight: bold;
-}
 
-button:hover {
-    border-radius: 0%;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-    background-color:white;
-    color: black;
-}
-/* Buttons-End */
 
 .divs {
     background-color: hsl(195,48%,54%);
@@ -65,6 +49,9 @@ button:hover {
     margin: 1%;
     margin-right: 1.5%;
     margin-left: 1.5%;
+}
+.divs h2{
+    color:white;
 }
 a{
     color:white;
@@ -91,3 +78,27 @@ img {
     color:hsl(195,48%,54%);
     border-bottom:1px dotted hsl(195,48%,54%);
 }
+/* Buttons-Start */
+button {
+    margin-top:8px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 16px 32px;
+    font-size: 15px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s; /*everything else*/
+    cursor: pointer;
+    background-color:  hsl(16, 95%, 59%);
+    color: white;
+    border:0;
+    font-weight: bold;
+}
+
+button:hover {
+    border-radius: 0%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:white;
+    color: black;
+}
+/* Buttons-End */
