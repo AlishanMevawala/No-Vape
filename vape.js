@@ -1,19 +1,17 @@
-function myFunction1(ElementId) {
-    // When the first button is clicked
-    var x = document.getElementById(ElementId);
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
+// Button Logic
+$(document).ready(function () {
+    // Button 1
+    $(button1).click(function () {
+        $(div1).toggle();
+    })
+    // Button 2
+    $(button2).click(function () {
+        $(div2).toggle();
+    })
+    // Button 3
+    $(button3).click(function () {
+        $(div3).toggle();
+    })
+})
 
-function myFunction2() {
-    // When the second button is clicked
-    // Doesn't do anything yet obvio
-}
-
-function myFunction3() {
-    // When the third button is clicked
-    // Doesn't do anything yet obvio
-}
+// Another comment
